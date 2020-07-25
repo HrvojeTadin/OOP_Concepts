@@ -1,8 +1,8 @@
-﻿namespace ServisVozila.Models
+﻿namespace VehicleService.Models
 {
-    public class Pilot : Vozac
+    public class Pilot : Driver
     {
-        public override bool VoziHelikopter() => true;
-        public override bool VoziZrakoplov() => true;
+        public override bool DriveHelicopter() => true;
+        public override bool DriveAirplane() => true;
     }
 }

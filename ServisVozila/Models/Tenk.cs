@@ -1,7 +1,7 @@
-﻿namespace ServisVozila.Models
+﻿namespace VehicleService.Models
 {
-    public class Tenk : Vozilo
+    public class Tenk : Vehicle
     {
-        public override bool MozeSeTerenskiVoziti() => true;
+        public override bool ItCanBeDriveOnLand() => true;
     }
 }

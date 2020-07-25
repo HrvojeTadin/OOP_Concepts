@@ -1,12 +1,12 @@
-﻿using ServisVozila.Helpers;
+﻿using VehicleService.Helpers;
 
-namespace ServisVozila
+namespace VehicleService
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Izbornik.PokreniIzbornik();
+            Menu.StartMenu();
         }
     }
 }
